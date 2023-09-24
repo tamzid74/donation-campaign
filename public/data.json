@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "picture": "https://i.ibb.co/TrVbH5K/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg_color": "#0052FF",
+    "card_bg_color": "#0052FF26",
+    "text_button_bg_color": "#0052FF",
+    "description": "Health is a multifaceted state of well-being encompassing physical, mental, and social dimensions. It signifies the absence of disease or illness while emphasizing the presence of positive qualities like vitality, resilience, and balance. Achieving good health involves various factors, including proper nutrition, regular physical activity, adequate sleep, and emotional stability.",
+    "price": 49.99
+  },
+  {
+    "id": "2",
+    "picture": "https://i.ibb.co/z4PnBP6/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg_color": "#FF444A",
+    "card_bg_color": "#FF444A26",
+    "text_button_bg_color": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": 29.95
+  },
+  {
+    "id": "3",
+    "picture": "https://i.ibb.co/vHcSknG/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg_color": "#79C23F",
+    "card_bg_color": "#79C23F26",
+    "text_button_bg_color": "#79C23F",
+    "description": "Clothing is a fundamental aspect of human life, serving both practical and cultural purposes. Beyond its primary function of providing protection from the elements, clothing has evolved into a form of self-expression, identity, and fashion. It reflects personal style, cultural traditions, and societal norms.",
+    "price": 79.99
+  },
+  {
+    "id": "4",
+    "picture": "https://i.ibb.co/CK9dM3R/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg_color": "#F87147",
+    "card_bg_color": "#F8714726",
+    "text_button_bg_color": "#F87147",
+    "description": "Food is a fundamental necessity of life, providing nourishment and sustenance for the human body. Beyond its basic role in satisfying hunger and providing energy, food is a rich and diverse aspect of human culture, identity, and enjoyment.It encompasses an array of flavors, textures, and aromas, offering a sensory experience that engages taste, smell, and even sight. Food reflects the diversity of culinary traditions worldwide, shaped by geography, history, and local ingredients. It serves as a medium for cultural expression, bringing people together through shared meals and traditions.",
+    "price": 39.99
+  },
+  {
+    "id": "5",
+    "picture": "https://i.ibb.co/CK9dM3R/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg_color": "#F87147",
+    "card_bg_color": "#F8714726",
+    "text_button_bg_color": "#F87147",
+    "description": "Food is a fundamental necessity of life, providing nourishment and sustenance for the human body. Beyond its basic role in satisfying hunger and providing energy, food is a rich and diverse aspect of human culture, identity, and enjoyment.It encompasses an array of flavors, textures, and aromas, offering a sensory experience that engages taste, smell, and even sight. Food reflects the diversity of culinary traditions worldwide, shaped by geography, history, and local ingredients. It serves as a medium for cultural expression, bringing people together through shared meals and traditions.",
+    "price": 14.99
+  },
+  {
+    "id": "6",
+    "picture": "https://i.ibb.co/vHcSknG/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg_color": "#79C23F",
+    "card_bg_color": "#79C23F26",
+    "text_button_bg_color": "#79C23F",
+    "description": "Clothing is a fundamental aspect of human life, serving both practical and cultural purposes. Beyond its primary function of providing protection from the elements, clothing has evolved into a form of self-expression, identity, and fashion. It reflects personal style, cultural traditions, and societal norms.",
+    "price": 19.99
+  },
+  {
+    "id": "7",
+    "picture": "https://i.ibb.co/z4PnBP6/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg_color": "#FF444A",
+    "card_bg_color": "#FF444A26",
+    "text_button_bg_color": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": 99.99
+  },
+  {
+    "id": "8",
+    "picture": "https://i.ibb.co/TrVbH5K/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg_color": "#0052FF",
+    "card_bg_color": "#0052FF26",
+    "text_button_bg_color": "#0052FF",
+    "description": "Health is a multifaceted state of well-being encompassing physical, mental, and social dimensions. It signifies the absence of disease or illness while emphasizing the presence of positive qualities like vitality, resilience, and balance. Achieving good health involves various factors, including proper nutrition, regular physical activity, adequate sleep, and emotional stability.",
+    "price": 59.95
+  },
+  {
+    "id": "9",
+    "picture": "https://i.ibb.co/TrVbH5K/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg_color": "#0052FF",
+    "card_bg_color": "#0052FF26",
+    "text_button_bg_color": "#0052FF",
+    "description": "Health is a multifaceted state of well-being encompassing physical, mental, and social dimensions. It signifies the absence of disease or illness while emphasizing the presence of positive qualities like vitality, resilience, and balance. Achieving good health involves various factors, including proper nutrition, regular physical activity, adequate sleep, and emotional stability.",
+    "price": 29.99
+  },
+  {
+    "id": "10",
+    "picture": "https://i.ibb.co/z4PnBP6/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg_color": "#FF444A",
+    "card_bg_color": "#FF444A26",
+    "text_button_bg_color": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": 49.99
+  },
+  {
+    "id": "11",
+    "picture": "https://i.ibb.co/vHcSknG/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg_color": "#79C23F",
+    "card_bg_color": "#79C23F26",
+    "text_button_bg_color": "#79C23F",
+    "description": "Clothing is a fundamental aspect of human life, serving both practical and cultural purposes. Beyond its primary function of providing protection from the elements, clothing has evolved into a form of self-expression, identity, and fashion. It reflects personal style, cultural traditions, and societal norms.",
+    "price": 34.99
+  },
+  {
+    "id": "12",
+    "picture": "https://i.ibb.co/CK9dM3R/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg_color": "#F87147",
+    "card_bg_color": "#F8714726",
+    "text_button_bg_color": "#F87147",
+    "description": "Food is a fundamental necessity of life, providing nourishment and sustenance for the human body. Beyond its basic role in satisfying hunger and providing energy, food is a rich and diverse aspect of human culture, identity, and enjoyment.It encompasses an array of flavors, textures, and aromas, offering a sensory experience that engages taste, smell, and even sight. Food reflects the diversity of culinary traditions worldwide, shaped by geography, history, and local ingredients. It serves as a medium for cultural expression, bringing people together through shared meals and traditions.",
+    "price": 22.99
+  }
+]
