@@ -1,9 +1,12 @@
+import { Pie, PieChart } from "recharts";
 
 
 const Statistics = () => {
     return (
         <div>
-            Statistics
+            <PieChart width={500} height={400}>
+                <Pie></Pie>
+            </PieChart>
         </div>
     );
 };

@@ -1,4 +1,9 @@
 const Banner = () => {
+    
+ const handleSearch = ()=>{
+    console.log('vvvvvvv')
+ }
+
   return (
     <div>
       <div className="flex flex-col">
@@ -10,7 +15,18 @@ const Banner = () => {
             <span className="text-[#0B0B0B] text-base md:text-2xl lg:text-5xl font-bold w-1/2 text-center">
               I Grow By Helping People In Need
             </span>
-            
+            <div className="form-control mt-5">
+              <div className="input-group">
+                <input
+                  type="text"
+                  placeholder="Search…"
+                  className="input input-bordered w-full"
+                />
+                <button onClick={() =>handleSearch()} className="btn bg-[#FF444A] text-white hover:text-black">
+                  Search
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
