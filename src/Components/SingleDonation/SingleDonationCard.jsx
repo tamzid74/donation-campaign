@@ -43,9 +43,9 @@ const SingleDonationCard = ({ singleDonation }) => {
             src={picture}
             alt="Album"
           />
-          {/* <div className="absolute w-full bottom-0 bg-black opacity-50 p-14 ">
-          </div> */}
-          <button onClick={handleToAdd} style={{background:text_button_bg_color}} className=" absolute bottom-9 ml-9 rounded-lg text-sm lg:text-xl font-semibold text-white px-4 py-2">Donate ${donation}</button>
+          <div className="absolute w-[1240px] h-[100] bottom-[15px] rounded-lg bg-black opacity-50 p-14 ">
+          </div>
+          <button onClick={handleToAdd} style={{background:text_button_bg_color}} className=" absolute bottom-[45px] ml-9 rounded-lg text-sm lg:text-xl font-semibold text-white px-4 py-2">Donate ${donation}</button>
           <h2 className="text-4xl font-bold">{title}</h2>
           <p>{description}</p>
           
