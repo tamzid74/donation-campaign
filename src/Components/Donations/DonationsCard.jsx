@@ -1,26 +1,27 @@
+import { Link } from "react-router-dom";
+
 /* eslint-disable react/prop-types */
 const DonationsCard = ({singleDonation}) => {
-    const { picture, title, category, category_bg_color, card_bg_color, text_button_bg_color  } = singleDonation || {}
+    const { id, picture, title, category, category_bg_color, card_bg_color, text_button_bg_color  } = singleDonation || {}
   return (
-    <div>
-      <div className="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+    <Link to={`/donations/${id}`}>
+      <div style={{background:card_bg_color}} className="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
         <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
-          <img
+          <img className="w-full"
             src={picture}
             alt="ui/ux review check"
           />
         </div>
         <div className="p-6">
-          <h4 className="text-sm font-medium text-[category_bg_colo]">
+          <span style={{background:card_bg_color, color:text_button_bg_color}} className=" px-3 py-2 rounded-lg text-sm font-medium">
             {category}
-          </h4>
-          <p className="mt-3 block font-sans text-xl font-normal leading-relaxed text-gray-700 antialiased">
-            Because it's about motivating the doers. Because I'm here to follow
-            my dreams and inspire others.
+          </span>
+          <p style={{color:category_bg_color}} className="mt-3  block font-sans text-xl font-semibold leading-relaxed antialiased">
+            {title}
           </p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
