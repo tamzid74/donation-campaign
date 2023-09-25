@@ -2,13 +2,14 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="max-w-7xl mx-auto">
+    <nav className="max-w-7xl mx-auto p-5">
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <img src="/src/assets/Image/Logo.png" alt="" />
+          
         </div>
         <div className="flex-none">
-          <ul className="text-sm font-bold gap-4 md:gap-12 menu-horizontal px-1">
+          <ul className="text-sm font-bold gap-4 md:gap-12 menu-horizontal px-1 ml-4">
             <li>
               <NavLink
                 to="/"
@@ -43,6 +44,7 @@ const Header = () => {
         </div>
       </div>
     </nav>
+    
   );
 };
 
