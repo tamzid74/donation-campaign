@@ -1,8 +1,7 @@
-# React + Vite
+# 3 Project Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- responsive for every device
+- when you click on the donation card that will open in a card ad you can donate click on donate button
+- using tostify (when you click donate button twice it will show you that is already donated and when you click donate button that will show you a toast is your donate is done ).
+- using rechat (when you click on statistics that will give a pie chart that will show you the percentage how much you donate).
+- This website is interactive for user.
