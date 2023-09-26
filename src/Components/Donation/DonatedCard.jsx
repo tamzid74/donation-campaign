@@ -14,12 +14,12 @@ const DonatedCard = ({ singleDonation }) => {
   } = singleDonation;
   return (
     
-        <div style={{background:card_bg_color}} className="flex">
+        <div style={{background:card_bg_color}} className="flex min-h-full">
       <div>
         <img className="w-full h-full" src={picture} alt="" />
       </div>
       <div>
-        <div className="p-6">
+        <div className="p-6 min-h-full">
           <span
             style={{ background: card_bg_color, color: text_button_bg_color }}
             className=" px-3 py-2 rounded-lg text-xs font-medium"

@@ -1,8 +1,19 @@
-const Banner = () => {
-    
- const handleSearch = ()=>{
-    console.log('vvvvvvv')
- }
+/* eslint-disable react/prop-types */
+/* eslint-disable no-undef */
+import { useState } from "react";
+
+const Banner = ({donations}) => {
+  const [searchData, setSearchData] = useState("");
+  const [search, setSearch] =useState([]);
+
+  const handleSearch = () => {
+    const filteredResults = donations.filter((item) =>
+    item.category.toLowerCase().includes(searchData.toLowerCase())
+  );
+
+    setSearch(filteredResults);
+  };
+  console.log(search)
 
   return (
     <div>
@@ -16,16 +27,18 @@ const Banner = () => {
               I Grow By Helping People In Need
             </span>
             <div className="form-control mt-5">
-              <div className="input-group">
-                <input
-                  type="text"
-                  placeholder="Search…"
-                  className="input input-bordered w-full"
-                />
-                <button onClick={() =>handleSearch()} className="btn bg-[#FF444A] text-white hover:text-black">
+              
+                <div className="input-group">
+                  <input
+                    onChange={e => setSearchData(e.target.value)}
+                    type="text"
+                    placeholder="Search…"
+                    className="input input-bordered w-full"
+                  />
+                  <button onClick={handleSearch} className="btn bg-[#FF444A] text-white hover:text-black">
                   Search
-                </button>
-              </div>
+                </button> 
+                </div>
             </div>
           </div>
         </div>

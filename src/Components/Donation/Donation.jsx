@@ -38,12 +38,12 @@ const Donation = () => {
                     ></DonatedCard>
                   ))}
           </div>
-          {donations.length > 4 && (
+          {donations.length > 4 &&  (
             <button
               onClick={() => setIsShow(!isShow)}
               className="btn btn-primary block mx-auto mt-5"
             >
-              See All
+              {isShow ? 'Show less': 'Show All'}
             </button>
           )}
         </div>
