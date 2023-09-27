@@ -1,4 +1,7 @@
+/* eslint-disable no-unused-vars */
+import { useEffect, useState } from "react";
 import { Cell, Legend, Pie, PieChart } from "recharts";
+
 
 const COLORS = ['#FF0000','#00FF00'];
 const RADIAN = Math.PI / 180;
@@ -21,9 +24,14 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 };
 
 const Statistics = () => {
-  const donationItems = JSON.parse(localStorage.getItem("donations"));
-  const total =12;
-  const totalDonation = donationItems.length;
+  const [total, setTotal]= useState(12);
+  const [totalDonation, setTotalDonation] = useState(0);
+  useEffect(() => {
+    const donationItems = JSON.parse(localStorage.getItem("donations"));
+    if (donationItems) {
+      setTotalDonation(donationItems.length);
+    }
+  }, []);
   const data = [
     { name: 'Total Donation', value: total },
     { name: 'My Donation', value: totalDonation }
@@ -47,8 +55,9 @@ const Statistics = () => {
             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
           ))}
         </Pie>
-        <Legend ></Legend>
+        <Legend></Legend>
       </PieChart>
+      
     </div>
     );
 };
