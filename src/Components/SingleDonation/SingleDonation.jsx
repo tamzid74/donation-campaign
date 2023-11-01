@@ -1,30 +1,24 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-import SingleDonationCard from "./SingleDonationcard";
-
+import SingleDonationCard from "./SingleDonationCard";
 
 const SingleDonation = () => {
+  const [singleDonation, setSingleDonation] = useState();
 
-    const [singleDonation, setSingleDonation] = useState()
- 
-const {id} = useParams();
-const donations = useLoaderData();
+  const { id } = useParams();
+  const donations = useLoaderData();
 
- useEffect(()=>{
-        const findDonation = donations?.find(singleDonation=> singleDonation.id === id)
+  useEffect(() => {
+    const findDonation = donations?.find(
+      (singleDonation) => singleDonation.id === id
+    );
 
-        setSingleDonation(findDonation);
-
- },[id, donations])
-
-
-
-
-
+    setSingleDonation(findDonation);
+  }, [id, donations]);
 
   return (
     <div className="max-w-7xl mx-auto py-10">
-        <SingleDonationCard singleDonation={singleDonation}></SingleDonationCard>
+      <SingleDonationCard singleDonation={singleDonation}></SingleDonationCard>
     </div>
   );
 };
