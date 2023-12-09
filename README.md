@@ -1,4 +1,4 @@
-# 3 Project Features
+# Project Features
 
 - responsive for every device
 - when you click on the donation card that will open in a card ad you can donate click on donate button
